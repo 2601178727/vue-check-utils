@@ -1,0 +1,23 @@
+{
+  "name": "vue-composent-utils",
+  "version": "1.0.0",
+  "description": "Improve development efficiency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2601178727/y-utils.git"
+  },
+  "keywords": [
+    "vue",
+    "tools"
+  ],
+  "author": "yyy9527",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2601178727/y-utils/issues"
+  },
+  "homepage": "https://github.com/2601178727/y-utils#readme"
+}
