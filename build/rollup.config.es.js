@@ -4,8 +4,8 @@ import uglify from 'rollup-plugin-uglify-es' //js压缩
 const config = Object.assign({}, base, {
     output: {
         exports: 'named',
-        name: 'vue-check-utils',
-        file: 'dist/vue-check-utils.js',
+        name: 'VueCheckUtils',
+        file: 'dist/vue-check-utils.esm.js',
         format: 'iife'
     },
 })
