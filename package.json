@@ -4,7 +4,8 @@
   "description": "Improve development efficiency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js -o dist/index.js -f amd"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/2601178727/y-utils#readme",
   "dependencies": {},
   "devDependencies": {
+    "rollup": "^2.23.1",
     "vue": "^2.6.11"
   }
 }
