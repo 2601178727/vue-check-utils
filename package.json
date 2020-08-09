@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/2601178727/y-utils/issues"
   },
-  "homepage": "https://github.com/2601178727/y-utils#readme"
+  "homepage": "https://github.com/2601178727/y-utils#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "vue": "^2.6.11"
+  }
 }
