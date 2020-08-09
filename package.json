@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/index.js -o dist/index.js -f amd"
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "rollup": "^2.23.1",
+    "rollup-plugin-uglify-es": "0.0.1",
     "vue": "^2.6.11"
   }
 }
